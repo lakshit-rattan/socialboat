@@ -1,0 +1,34 @@
+.media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30vw;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #353a45;
+  border-radius: 10px;
+  position: relative;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+@media (max-width: 550px) {
+  .media {
+    width: 46%;
+  }
+}
+
+.video {
+  border-radius: 10px;
+  cursor: pointer;
+  width: calc(30vw - 1vw);
+  height: max-content;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  font-size: 17px;
+  padding: 5px 0;
+  text-transform: uppercase;
+}
